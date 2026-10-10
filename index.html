@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08090c">
+<meta name="description" content="TIMELESS — ATELIER / 01. A watch made to outlast the moment.">
+<title>TIMELESS — ATELIER / 01</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader" role="status" aria-live="polite">
+  <span class="l-brand">ATELIER<i> / 01</i></span>
+  <div class="l-track"><b id="loadBar"></b></div>
+  <span id="loadPct">Preparing the collection</span>
+</div>
+
+<header class="nav">
+  <a href="#hero" class="brand">ATELIER<span> / 01</span></a>
+  <nav aria-label="Primary">
+    <a href="#craft">Craft</a>
+    <a href="#design">Design</a>
+    <a href="#collection">Collection</a>
+    <a href="#private" class="nav-cta">Private viewing</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="hero" aria-label="TIMELESS introduction">
+    <div class="pin">
+      <canvas id="canvas" role="img" aria-label="The TIMELESS watch, rotating as you scroll"></canvas>
+      <p class="fallback" id="fallback" hidden>Add your watch frames to <code>/frames</code> to bring the hero to life.</p>
+      <div class="shade"></div>
+
+      <aside class="glass" aria-live="polite">
+        <div class="g-top"><i class="dot"></i><span>The art of time</span><span class="serial" id="serial">No. 01</span></div>
+
+        <div class="steps">
+          <article class="step active" data-step="0">
+            <p class="eyebrow">The first impression</p>
+            <h1>Timeless<br>by design.</h1>
+            <p class="lead">More than a watch. A statement of who you are, shaped by precision and restraint.</p>
+            <div class="actions">
+              <a class="btn" href="#collection">Discover the collection <span aria-hidden="true">↗</span></a>
+              <a class="link" href="#craft">Explore the craft</a>
+            </div>
+          </article>
+
+          <article class="step" data-step="1" inert>
+            <p class="eyebrow">Engineered to perform</p>
+            <h2>Precision<br>in motion.</h2>
+            <p class="lead">Every second matters. Considered mechanics bring accuracy and performance together.</p>
+            <ul class="feats"><li>Refined mechanics</li><li>Attention to every tolerance</li><li>Performance you can feel</li></ul>
+          </article>
+
+          <article class="step" data-step="2" inert>
+            <p class="eyebrow">Crafted to be remembered</p>
+            <h2>Every detail<br>matters.</h2>
+            <p class="lead">A distinctive dial, sculpted lines and a finish that catches the light from every angle.</p>
+            <ul class="feats"><li>Signature dial</li><li>Considered case finishing</li><li>Materials to be confirmed</li></ul>
+          </article>
+
+          <article class="step" data-step="3" inert>
+            <p class="eyebrow">Your time. Your legacy.</p>
+            <h2>Make every<br>second count.</h2>
+            <p class="lead">Made for those who value their time, and for the moments worth marking.</p>
+            <div class="actions">
+              <a class="btn" href="#collection">Discover the collection <span aria-hidden="true">↗</span></a>
+              <a class="link" href="#private">Request a private viewing</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="g-foot"><span>Designed with intention</span><span>Est. 2026</span></div>
+      </aside>
+
+      <div class="bottomline">
+        <span>Scroll to experience</span>
+        <div class="track"><b id="progress"></b></div>
+        <span id="counter">01 / 04</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec philosophy" id="philosophy">
+    <p class="label">The philosophy</p>
+    <h2 class="big">Time moves.<br>Style remains.</h2>
+    <p class="body">Designed to transcend trends, and to become part of your story rather than a season in it.</p>
+  </section>
+
+  <section class="sec craft" id="craft">
+    <div class="head">
+      <p class="label">The craft</p>
+      <h2 class="mid">Not just an accessory.</h2>
+      <p class="body">A meeting of thoughtful design, refined details and a timeless point of view. Close-up photography of each element belongs here.</p>
+    </div>
+    <figure class="ph tall"><figcaption>Dial close-up<br>assets/dial.jpg</figcaption></figure>
+    <figure class="ph wide"><figcaption>Case and bezel finishing<br>assets/case.jpg</figcaption></figure>
+    <figure class="ph sq"><figcaption>Strap and clasp<br>assets/strap.jpg</figcaption></figure>
+  </section>
+
+  <section class="sec design" id="design">
+    <figure class="ph portrait"><figcaption>Signature profile<br>assets/signature.jpg</figcaption></figure>
+    <div>
+      <p class="label">Signature design</p>
+      <h2 class="mid">One silhouette,<br>unmistakably yours.</h2>
+      <ol class="rows">
+        <li><b>The dial</b><span>The first thing you see, and the last thing you forget.</span></li>
+        <li><b>The case</b><span>Sculpted lines, finished to catch the light.</span></li>
+        <li><b>The wearing</b><span>Balanced for daily life. Specifications to be supplied.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec collection" id="collection">
+    <div class="head">
+      <p class="label">The collection</p>
+      <h2 class="mid">Atelier / 01</h2>
+    </div>
+    <div class="cards">
+      <article><figure class="ph card"><figcaption>assets/ref-i.jpg</figcaption></figure><h3>Reference I</h3><p>Details to be announced</p></article>
+      <article><figure class="ph card"><figcaption>assets/ref-ii.jpg</figcaption></figure><h3>Reference II</h3><p>Details to be announced</p></article>
+      <article><figure class="ph card"><figcaption>assets/ref-iii.jpg</figcaption></figure><h3>Reference III</h3><p>Details to be announced</p></article>
+    </div>
+  </section>
+
+  <section class="sec final" id="private">
+    <p class="label">Your time. Your legacy.</p>
+    <h2 class="big">Make every<br>second count.</h2>
+    <form id="viewing" novalidate>
+      <label for="email">Email address</label>
+      <div class="field">
+        <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        <button class="btn" type="submit">Request a private viewing</button>
+      </div>
+      <p id="formMsg" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot">
+  <a href="#hero" class="brand">ATELIER<span> / 01</span></a>
+  <nav aria-label="Footer"><a href="#craft">Craft</a><a href="#design">Design</a><a href="#collection">Collection</a><a href="#private">Contact</a></nav>
+  <small>© 2026 Atelier / 01. All rights reserved.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
